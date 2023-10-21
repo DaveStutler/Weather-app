@@ -45,7 +45,7 @@ GIF created with ScreenToGif
 ## Notes
 
 I have a lot of troubles trying to loop through the forecast. I wanted to use a loop to call the 7 days predictions but right now I am not sure how to implement that into a loop.
-Next update with fix this issue with clean and efficient codes. Additionally with a text box to search specific location base on their zip code
+Next update with fix this issue with clean and efficient codes. Additionally with a text box to search specific location base on their zip code.
 Credit for the weather API from https://www.weatherapi.com/
 ## License
 
