@@ -2,6 +2,9 @@ import { useState, useEffect } from 'react'
 import './App.css'
 import CurrentWeather from "../components/CurrentWeather.jsx";
 import ForecastWeather from "../components/ForecastWeather.jsx";
+import LocationWeather from "../components/LocationWeather.jsx";
+import { Link, Outlet } from "react-router-dom";
+
 
 const API_KEY = import.meta.env.VITE_APP_API_KEY;
 
@@ -22,10 +25,13 @@ function App() {
   return (
     <>
       <div className="whole-page">
-        <h1>Weather Dude🌦️</h1>
-        <CurrentWeather />
-        <ForecastWeather list={list} />
-        
+        <div className='left-side'>
+          <LocationWeather />
+        </div>
+        <div className='right-side'>
+          <CurrentWeather />
+          <ForecastWeather list={list} />
+        </div>
       </div>
     </>
   )

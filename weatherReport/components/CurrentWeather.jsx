@@ -24,21 +24,13 @@ const CurrentWeather = () => {
             (
                 <div className="weather-heading">
                     <div className="weather-card">
-                        <div className="card">
+                        <div className="card" id="current-location">
                             <h2>{weather.location.name} </h2> 
-                            <h2>{weather.location.region}</h2>
                         </div>
-                        <div className="card">
-                            <h4>Temperature {weather.current.temp_f}°F, or {weather.current.temp_c}°C</h4>
+                        <div className="card" id="current-temp">
+                            <h1> {weather.current.temp_f}</h1>
                         </div>
-                        <div className="card">
-                            <h3>Condition: {weather.current.condition.text} sky</h3>
-                            <img
-                                className="weather-icons"
-                                src={weather.current.condition.icon}
-                                alt={`Icon for ${weather.current.condition.text}`}
-                            />
-                        </div>
+                        <h3>{weather.current.condition.text}</h3>
                     </div>
                 </div>
             ) : null }
