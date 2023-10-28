@@ -1,34 +1,29 @@
-# Web Development Project 5 - *Weather Prediction*
+# Web Development Project 6 - *Climate Mate*
 
 Submitted by: **Huy Nguyen**
 
-This web app: **using weather API to predict local weather**
+This web app: ** It's a weather app that would intended to tell you about the weather. However, future updates would include graphs about differnet weather, charts about the weather, maps of other weather, joke, and news for users to start the day.  **
 
-Time spent: **10** hours spent in total
+Time spent: **6** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [x] **The list displays a list of data fetched using an API call**
-- [x] **Data uses the useEffect React hook and async/await syntax**
-- [x] **The app dashboard includes at least three summary statistics about the data such as**
-  - [x] *location*
-  - [x] *Temperature in F and C*
-  - [x] *Weather Condition*
-- [ ] **A search bar allows the user to search for an item in the fetched data**
-- [ ] **Multiple different filters (2+) allow the user to filter items in the database by specified categories**
+- [ ] **The app includes at least one unique chart developed using the fetched data that tell an interesting story**
+- [x] **Clicking on an item in the list view displays more details about it**
+- [x] **Clicking on an item has a direct, unique link to that item's detail view page**
+
 
 The following **optional** features are implemented:
 
-- [ ] Multiple filters can be applied simultaneously
-- [ ] Filters use different input types such as a text input, a selection, or a slider
-- [ ] The user can enter specific bounds for filter values
+- [ ] The site's customized dashboard contains more content that explains what is interesting about the data
+- [ ] The site allows users to toggle between different data visualizations
 
 The following **additional** features are implemented:
 
 * [ ] List anything else that you added to improve the site's functionality!
-
+Previous update did not have css style. I try to 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
@@ -36,7 +31,7 @@ Here's a walkthrough of implemented user stories:
 <img src='Animation.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ScreenToGif
+GIF created with screentogif
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -44,12 +39,11 @@ GIF created with ScreenToGif
 
 ## Notes
 
-I have a lot of troubles trying to loop through the forecast. I wanted to use a loop to call the 7 days predictions but right now I am not sure how to implement that into a loop.
-Next update with fix this issue with clean and efficient codes. Additionally with a text box to search specific location base on their zip code.
-Credit for the weather API from https://www.weatherapi.com/
+The multiple links was really difficult to implement. I would love to fix it efficient code with some helps from others please.
+
 ## License
 
-    Copyright 2023 Huy Nguyen
+    Copyright [yyyy] [name of copyright owner]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
